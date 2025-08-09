@@ -83,14 +83,14 @@ export default function ProjectDetail() {
                 <ExternalLink className="mr-2 h-4 w-4" />
                 View Live Demo
               </Button>
-              <Button
+              {/* <Button
                 variant="outline"
                 onClick={() => window.open(project.githubUrl, "_blank")}
                 className="border-primary-500 text-primary-500 hover:bg-primary-500 hover:text-white"
               >
                 <Github className="mr-2 h-4 w-4" />
                 View Code
-              </Button>
+              </Button> */}
             </div>
           </ScrollAnimation>
 

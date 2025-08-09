@@ -55,21 +55,23 @@ export const projects = [
   {
     id: "Midlynk",
     title: "Midlynk",
-    description: "Full-featured e-commerce solution with modern UI, payment integration, and admin dashboard.",
+    description: "Contributed to a Fiverr-like freelance platform supporting employer-employee workflows and service listings",
     // image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
     image: "/images/midlynk.png",
-    tags: ["Next.js", "TypeScript", "Tailwind"],
-    liveUrl: "#",
+    tags: ["Next.js", "Javascipt",  "Tailwind","Django"],
+    liveUrl: "https://midlynk.com/",
     githubUrl: "#",
     features: [
-      "Modern responsive design",
+      
       "Payment gateway integration",
-      "Admin dashboard",
-      "User authentication",
-      "Product management",
-      "Order tracking"
+      "Service Marketplace",
+      "Seamless Hiring Process",
+      "Transparent Communication",
+      "Verified Profiles & Ratings",
+       "Modern responsive design",
+       "Category & Search Filters"
     ],
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe", "PostgreSQL", "Prisma"]
+    technologies: ["Next.js", "Javascript", "Tailwind CSS", "Stripe", "Django", "Prisma"]
   },
   {
     id: "Reelo",
