@@ -58,7 +58,7 @@ export const projects = [
     description: "Contributed to a Fiverr-like freelance platform supporting employer-employee workflows and service listings",
     // image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
     image: "/images/midlynk.png",
-    tags: ["Next.js", "Javascipt",  "Tailwind","Django"],
+    tags: ["Next.js", "Javascipt",  "Antdesign","Django"],
     liveUrl: "https://midlynk.com/",
     githubUrl: "#",
     features: [
@@ -71,64 +71,65 @@ export const projects = [
        "Modern responsive design",
        "Category & Search Filters"
     ],
-    technologies: ["Next.js", "Javascript", "Tailwind CSS", "Stripe", "Django", "Prisma"]
+    technologies: ["Next.js", "Javascript", "AntDesign", "Stripe", "Django", "Push Notifications","Prisma"]
   },
   {
     id: "Reelo",
     title: "Reelo",
-    description: "Collaborative task management with real-time updates, drag-and-drop functionality.",
+    description: "Reelo is a user-focused ad management platform that empowers individuals and businesses to create, run, and track ad campaigns while rewarding users for engagement.",
     // image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
     image: "/images/reelo.png",
-    tags: ["React", "Shadcn/ui", "Redux"],
+    tags: ["Refine", "Material Design", "Shadecn","Django"],
     liveUrl: "#",
     githubUrl: "#",
     features: [
-      "Drag and drop interface",
+      "Ad Campaign Management ",
       "Real-time collaboration",
-      "Task prioritization",
-      "Team management",
-      "Progress tracking",
-      "Notification system"
+      "Reward-Based Engagement",
+      "Performance Tracking & Analytics",
+      "Modern Frontend Experience ",
+      "Integrated Payment System","Cross-Device Accessibility"
     ],
-    technologies: ["React", "Redux Toolkit", "Shadcn/ui", "Socket.io", "Node.js", "MongoDB"]
+    technologies: ["Refine", "Material Design", "Shadecn","Push Notifications","Django"]
   },
   {
     id: "Q100",
     title: "Q100",
-    description: "Beautiful weather dashboard with interactive charts, forecasts, and location-based data.",
+    description: "Q-100 is a role-based Learning Management System tailored for the Saudi Arabian education system, enabling efficient national test preparation through personalized dashboards for teachers and students.",
     // image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-    image: "/images/q100.png",
-    tags: ["Next.js", "Chart.js", "API"],
-    liveUrl: "#",
+    image: "/images/Q100.png",
+    tags: ["React", "AntDesign", "Django"],
+    liveUrl: "https://q100-4ca4a.web.app/log-in",
     githubUrl: "#",
     features: [
-      "Interactive weather charts",
-      "7-day forecast",
-      "Location-based weather",
-      "Weather alerts",
-      "Historical data",
-      "Mobile responsive"
+      "Role-Based Access Control",
+      "Comprehensive Exam Preparation",
+      "Student Portal",
+      "Teacher Portal",
+      "Performance Analytics",
+      "Course & Test Management",
+      "Interactive Learning Experience"
     ],
-    technologies: ["Next.js", "Chart.js", "OpenWeather API", "Tailwind CSS", "Framer Motion"]
+    technologies: ["React", "Antdesign", "Django", "Plate js","Tanstack Query"]
   },
   {
     id: "GSL",
     title: "GSL",
-    description: "Analytics dashboard for social media management with data visualization and insights.",
+    description: "Grow Smart Live is an interactive crop advisory platform that connects farmers and agricultural enthusiasts with experts, enabling article sharing, expert guidance, and community knowledge exchange.",
     // image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
     image: "/images/gsl.png",
-    tags: ["React", "Material UI", "D3.js"],
-    liveUrl: "#",
+    tags: ["Next js", "Shadecn", "Nodejs"],
+    liveUrl: "https://growsmartlive.com/",
     githubUrl: "#",
     features: [
-      "Social media analytics",
-      "Data visualization",
-      "Performance metrics",
-      "Content scheduling",
+      "Article Posting & Knowledge Sharing",
+      "Expert Consultation",
+      "Optimized Navigation & Data Loading",
+      "Backend Collaboration",
       "Engagement tracking",
-      "Multi-platform support"
+      "Community Engagement Tools"
     ],
-    technologies: ["React", "Material UI", "D3.js", "Chart.js", "Express.js", "PostgreSQL"]
+    technologies: ["Nextjs", "Shadecn", "AGgrid", "Platejs", "Tanstack Router", "Firebase Auth" ,"Push Notifications"]
   },
   {
     id: "Qntar",
@@ -150,21 +151,52 @@ export const projects = [
     technologies: ["Next.js", "Framer Motion", "Tailwind CSS", "TypeScript", "Vercel"]
   },
   {
-    id: "learning-platform",
-    title: "Learning Platform",
-    description: "Online learning platform with course management, progress tracking, and interactive content.",
-    image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-    tags: ["React", "TypeScript", "Firebase"],
+    id: "aiter",
+    title: "AI-ITER",
+    description: "Developed an AI-powered platform to automate NHS referral workflows, streamlining communication between GPs, specialists, and hospitals.",
+    image:"/images/AITER.png",
+    // image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+    tags: ["React", "Javascript", "Django", "Tailwind","Auth0","Firebase Notifications"],
     liveUrl: "#",
     githubUrl: "#",
     features: [
-      "Course management",
-      "Progress tracking",
-      "Interactive content",
-      "Video streaming",
-      "Quizzes and assessments",
-      "Certificate generation"
+      "Referral Automation",
+      "UI Development",
+      "Real-time Communication",
+      "AI Integration",
+      "Workflow Optimization",
+      "Healthcare Efficiency",
+      "Responsive Design",
+      "Access Control",
+      "Role-based Permissions"
     ],
-    technologies: ["React", "TypeScript", "Firebase", "Video.js", "Tailwind CSS", "Node.js"]
+    technologies: ["React", "Javascript", "Django", "Tailwind","Auth0","Firebase Notifications"]
   }
 ];
+
+export const firms=[
+  {
+    name: "BitsPro",
+    companyLogo: "/images/bitsPro.png",
+    description: "React Developer",
+    color: "text-blue-400"
+  },
+  {
+    name: "GYBCOMMERCE",
+    companyLogo: "/images/GYB.png",
+    description: "Junior Frontend Developer",
+    color: "text-blue-400"
+  },
+  {
+    name: "HassSoft Soultion",
+    companyLogo: "/images/hassoft.png",
+    description: "Internee",
+    color: "text-blue-400"
+  },
+   {
+    name: "Mythod",
+    companyLogo: "/images/mythod_logos.png",
+    description: "React Developer",
+    color: "text-blue-400"
+  },
+]
