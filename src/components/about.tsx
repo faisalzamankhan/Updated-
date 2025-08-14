@@ -7,8 +7,8 @@ import Image from "next/image";
 
 export function About() {
   const stats = [
-    { icon: Award, value: "3+", label: "Years Experience" },
-    { icon: Users, value: "15+", label: "Projects Completed" },
+    { icon: Award, value: "2+", label: "Years Experience" },
+    { icon: Users, value: "8+", label: "Projects Completed" },
   ];
 
   return (

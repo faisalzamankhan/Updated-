@@ -176,6 +176,7 @@ export const projects = [
 
 export const firms=[
   {
+    id:"bitsPro",
     name: "BitsPro",
     companyLogo: "/images/bitsPro.png",
     description: "React Developer",
@@ -191,6 +192,7 @@ export const firms=[
     `
   },
   {
+    id:"gybCommerce",
     name: "GYBCOMMERCE",
     companyLogo: "/images/GYB.png",
     description: "Junior Frontend Developer",
@@ -214,6 +216,7 @@ Developed backend services using Node js and Express js.
   },
 
      {
+      id:"mythod",
     name: "Mythod",
     companyLogo: "/images/mythod_logos.png",
     description: "React Developer",
@@ -239,6 +242,7 @@ Collaborated with design tools like Figma or Adobe XD to match the UI with the d
     `
   },
   {
+    id:"hassoft",
     name: "HassSoft Soultion",
     companyLogo: "/images/hassoft.png",
     description: "Internee",
