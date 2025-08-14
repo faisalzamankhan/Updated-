@@ -179,24 +179,75 @@ export const firms=[
     name: "BitsPro",
     companyLogo: "/images/bitsPro.png",
     description: "React Developer",
-    color: "text-blue-400"
+    color: "text-blue-400",
+    detail:`
+     Developed and integrated dynamic user interfaces using React with Type Script,emphasizing
+     performance,maintainability, and type safety
+     Used Tan Stack Router for routing for routing and Infinite Query for efficient data fetching.
+     Worked extensively with AG Grid for complex data tables and used Plate js for Editor usage.
+     Worked with Google Apis for Google Maps and Google Places integration.
+     Implementation of firebase for real-time notifications and authentication.
+     Technologies: React, TypeScript ,Shadcn,Figma Design,Plate js
+    `
   },
   {
     name: "GYBCOMMERCE",
     companyLogo: "/images/GYB.png",
     description: "Junior Frontend Developer",
-    color: "text-blue-400"
+    color: "text-blue-400",
+  detail:`
+     Developed and integrated dynamic user interfaces using React with Type Script,emphasizing
+     performance,maintainability, and type safety
+     Utilized React Query for efficient data fetching and state management.
+     Improved application performance by leveraging various React Hooks.
+Developed small projects on WordPress and Shopify using JavaScript, CSS, and Polaris.
+Collaborated with Figma and Adobe XD to implement and refine designs.
+Implemented CI/CD pipelines for streamlined deployment and version control.
+Utilized Firebase for deployment, real-time notifications, and authentication.
+Integrated Auth0 for secure authentication and authorization.
+Implemented Stripe for seamless payment integration.
+Built projects using the Refine framework.
+Worked with various design libraries including AntDesign, Bootstrap, Material Design, Tailwind CSS, and Shadcn.
+Developed backend services using Node js and Express js.
+     Technologies: React,Javascript,TypeScript ,AntDesign,Ploaris,Shadcn,Figma Design, Adobe,Plate js 
+    `
+  },
+
+     {
+    name: "Mythod",
+    companyLogo: "/images/mythod_logos.png",
+    description: "React Developer",
+    color: "text-blue-400",
+    detail:`
+     Developed Qntar, a travel booking platform, using React.
+
+Enabled users to browse and book tours across different parts of the world.
+
+Implemented dynamic tour listings, search, and filtering functionality for a smooth user experience.
+
+Integrated React Query for efficient data fetching and state management.
+
+Designed responsive UI to ensure seamless experience across devices.
+
+Implemented user authentication and authorization for secure bookings.
+
+Handled booking workflow and payment integration (Stripe or other payment solutions if applicable).
+
+Collaborated with design tools like Figma or Adobe XD to match the UI with the design vision.
+     
+     Technologies: React, TypeScript ,Shadcn,Figma Design,Plate js.
+    `
   },
   {
     name: "HassSoft Soultion",
     companyLogo: "/images/hassoft.png",
     description: "Internee",
-    color: "text-blue-400"
+    color: "text-blue-400",
+    detail:`
+     Joined here as Frontend Developer (Internship) using React.
+      The main domain which I was working was creating different pages for UI.
+       Work on the basics of React Architecture
+    `
   },
-   {
-    name: "Mythod",
-    companyLogo: "/images/mythod_logos.png",
-    description: "React Developer",
-    color: "text-blue-400"
-  },
+
 ]

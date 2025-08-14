@@ -1,9 +1,12 @@
+"use client";
 import { ScrollAnimation } from "./scroll-animations";
 import { firms, skills } from "../lib/data";
 import { AnimatedText, StaggeredText } from "./animated-text";
 import { Button } from "./ui/button";
+import { Github } from "lucide-react";
 
 export const ProfessionalExperienced = () => {
+  const routeParams = 1;
   return (
     <section
       id="professionalExperienced"
@@ -58,9 +61,7 @@ export const ProfessionalExperienced = () => {
         <ScrollAnimation className="text-center mt-12">
           <Button
             className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-[var(--primary)] to-[var(--secondary)] hover:from-primary-600 hover:to-secondary-600 font-semibold hover:scale-105 transition-all duration-300"
-            onClick={() =>
-              window.open("https://github.com/faisalzaman", "_blank")
-            }
+            onClick={() => window.open(`/detail/${routeParams}`, "_blank")}
           >
             View Details
           </Button>
